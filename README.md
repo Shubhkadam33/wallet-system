@@ -175,3 +175,10 @@ The application uses H2 with configuration defined in `application.properties`. 
 ## Author
 
 Developed as a Java backend wallet system project.
+
+## Future Improvements
+
+- Resolve the remaining SonarQube security finding after reviewing its security implications.
+- Expand integration tests for concurrent requests, duplicate API requests, and transaction rollback.
+- Add API documentation using OpenAPI/Swagger.
+- Deploy the application to a cloud platform.
