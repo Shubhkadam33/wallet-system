@@ -175,9 +175,23 @@ The application uses H2 with configuration defined in `application.properties`. 
 ## Author
 
 Developed as a Java backend wallet system project.
+## SonarQube Code Analysis
+
+The project integrates SonarQube Cloud with GitHub Actions to analyze code quality and identify potential bugs, security issues, and maintainability concerns.
+
+**Analysis Details**
+- **Tool:** SonarQube Cloud
+- **CI/CD Integration:** GitHub Actions
+- **Quality Gate:** Passed
+- **Code Coverage:** 76.7%
+- **Code Analysis:** Automated as part of the CI/CD workflow
+
+**SonarQube Dashboard:**  
+https://sonarcloud.io/project/overview?id=Shubhkadam33_wallet-system
+
+The analysis helps monitor code quality and identify areas for improvement. One security finding remains open and requires review.
 
 ## Future Improvements
-
 - Resolve the remaining SonarQube security finding after reviewing its security implications.
 - Expand integration tests for concurrent requests, duplicate API requests, and transaction rollback.
 - Add API documentation using OpenAPI/Swagger.
