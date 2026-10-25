@@ -41,5 +41,5 @@ jobs:
           mvn -B clean verify
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=Shubhkadam33_wallet-system
-          -Dsonar.organization=wallet-system
+          -Dsonar.organization=walllet-system
           -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
